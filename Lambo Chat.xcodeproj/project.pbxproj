@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB6C84627B837ED002BEF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84527B837ED002BEF17 /* AppDelegate.swift */; };
+		CCB6C84827B837ED002BEF17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */; };
+		CCB6C84A27B837ED002BEF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84927B837ED002BEF17 /* ViewController.swift */; };
+		CCB6C84D27B837ED002BEF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C84B27B837ED002BEF17 /* Main.storyboard */; };
+		CCB6C84F27B837EE002BEF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C84E27B837EE002BEF17 /* Assets.xcassets */; };
+		CCB6C85227B837EE002BEF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C85027B837EE002BEF17 /* LaunchScreen.storyboard */; };
+		CCB6C85D27B837EE002BEF17 /* Lambo_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C85C27B837EE002BEF17 /* Lambo_ChatTests.swift */; };
+		CCB6C86727B837EE002BEF17 /* Lambo_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C86627B837EE002BEF17 /* Lambo_ChatUITests.swift */; };
+		CCB6C86927B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C86827B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB6C85927B837EE002BEF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB6C83A27B837ED002BEF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB6C84127B837ED002BEF17;
+			remoteInfo = "Lambo Chat";
+		};
+		CCB6C86327B837EE002BEF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB6C83A27B837ED002BEF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB6C84127B837ED002BEF17;
+			remoteInfo = "Lambo Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB6C84227B837ED002BEF17 /* Lambo Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lambo Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6C84527B837ED002BEF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCB6C84927B837ED002BEF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB6C84C27B837ED002BEF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB6C84E27B837EE002BEF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB6C85127B837EE002BEF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB6C85327B837EE002BEF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB6C85827B837EE002BEF17 /* Lambo ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lambo ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6C85C27B837EE002BEF17 /* Lambo_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lambo_ChatTests.swift; sourceTree = "<group>"; };
+		CCB6C86227B837EE002BEF17 /* Lambo ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lambo ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6C86627B837EE002BEF17 /* Lambo_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lambo_ChatUITests.swift; sourceTree = "<group>"; };
+		CCB6C86827B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lambo_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB6C83F27B837ED002BEF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C85527B837EE002BEF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C85F27B837EE002BEF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB6C83927B837ED002BEF17 = {
+			isa = PBXGroup;
+			children = (
+				CCB6C84427B837ED002BEF17 /* Lambo Chat */,
+				CCB6C85B27B837EE002BEF17 /* Lambo ChatTests */,
+				CCB6C86527B837EE002BEF17 /* Lambo ChatUITests */,
+				CCB6C84327B837ED002BEF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB6C84327B837ED002BEF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6C84227B837ED002BEF17 /* Lambo Chat.app */,
+				CCB6C85827B837EE002BEF17 /* Lambo ChatTests.xctest */,
+				CCB6C86227B837EE002BEF17 /* Lambo ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB6C84427B837ED002BEF17 /* Lambo Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6C84527B837ED002BEF17 /* AppDelegate.swift */,
+				CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */,
+				CCB6C84927B837ED002BEF17 /* ViewController.swift */,
+				CCB6C84B27B837ED002BEF17 /* Main.storyboard */,
+				CCB6C84E27B837EE002BEF17 /* Assets.xcassets */,
+				CCB6C85027B837EE002BEF17 /* LaunchScreen.storyboard */,
+				CCB6C85327B837EE002BEF17 /* Info.plist */,
+			);
+			path = "Lambo Chat";
+			sourceTree = "<group>";
+		};
+		CCB6C85B27B837EE002BEF17 /* Lambo ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6C85C27B837EE002BEF17 /* Lambo_ChatTests.swift */,
+			);
+			path = "Lambo ChatTests";
+			sourceTree = "<group>";
+		};
+		CCB6C86527B837EE002BEF17 /* Lambo ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6C86627B837EE002BEF17 /* Lambo_ChatUITests.swift */,
+				CCB6C86827B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift */,
+			);
+			path = "Lambo ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB6C84127B837ED002BEF17 /* Lambo Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6C86C27B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo Chat" */;
+			buildPhases = (
+				CCB6C83E27B837ED002BEF17 /* Sources */,
+				CCB6C83F27B837ED002BEF17 /* Frameworks */,
+				CCB6C84027B837ED002BEF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lambo Chat";
+			productName = "Lambo Chat";
+			productReference = CCB6C84227B837ED002BEF17 /* Lambo Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB6C85727B837EE002BEF17 /* Lambo ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6C86F27B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo ChatTests" */;
+			buildPhases = (
+				CCB6C85427B837EE002BEF17 /* Sources */,
+				CCB6C85527B837EE002BEF17 /* Frameworks */,
+				CCB6C85627B837EE002BEF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB6C85A27B837EE002BEF17 /* PBXTargetDependency */,
+			);
+			name = "Lambo ChatTests";
+			productName = "Lambo ChatTests";
+			productReference = CCB6C85827B837EE002BEF17 /* Lambo ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB6C86127B837EE002BEF17 /* Lambo ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6C87227B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo ChatUITests" */;
+			buildPhases = (
+				CCB6C85E27B837EE002BEF17 /* Sources */,
+				CCB6C85F27B837EE002BEF17 /* Frameworks */,
+				CCB6C86027B837EE002BEF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB6C86427B837EE002BEF17 /* PBXTargetDependency */,
+			);
+			name = "Lambo ChatUITests";
+			productName = "Lambo ChatUITests";
+			productReference = CCB6C86227B837EE002BEF17 /* Lambo ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB6C83A27B837ED002BEF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CCB6C84127B837ED002BEF17 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CCB6C85727B837EE002BEF17 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCB6C84127B837ED002BEF17;
+					};
+					CCB6C86127B837EE002BEF17 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCB6C84127B837ED002BEF17;
+					};
+				};
+			};
+			buildConfigurationList = CCB6C83D27B837ED002BEF17 /* Build configuration list for PBXProject "Lambo Chat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB6C83927B837ED002BEF17;
+			productRefGroup = CCB6C84327B837ED002BEF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB6C84127B837ED002BEF17 /* Lambo Chat */,
+				CCB6C85727B837EE002BEF17 /* Lambo ChatTests */,
+				CCB6C86127B837EE002BEF17 /* Lambo ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB6C84027B837ED002BEF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6C85227B837EE002BEF17 /* LaunchScreen.storyboard in Resources */,
+				CCB6C84F27B837EE002BEF17 /* Assets.xcassets in Resources */,
+				CCB6C84D27B837ED002BEF17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C85627B837EE002BEF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C86027B837EE002BEF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB6C83E27B837ED002BEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6C84A27B837ED002BEF17 /* ViewController.swift in Sources */,
+				CCB6C84627B837ED002BEF17 /* AppDelegate.swift in Sources */,
+				CCB6C84827B837ED002BEF17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C85427B837EE002BEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6C85D27B837EE002BEF17 /* Lambo_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6C85E27B837EE002BEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6C86927B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift in Sources */,
+				CCB6C86727B837EE002BEF17 /* Lambo_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB6C85A27B837EE002BEF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB6C84127B837ED002BEF17 /* Lambo Chat */;
+			targetProxy = CCB6C85927B837EE002BEF17 /* PBXContainerItemProxy */;
+		};
+		CCB6C86427B837EE002BEF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB6C84127B837ED002BEF17 /* Lambo Chat */;
+			targetProxy = CCB6C86327B837EE002BEF17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB6C84B27B837ED002BEF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB6C84C27B837ED002BEF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB6C85027B837EE002BEF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB6C85127B837EE002BEF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB6C86A27B837EE002BEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB6C86B27B837EE002BEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB6C86D27B837EE002BEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lambo Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB6C86E27B837EE002BEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lambo Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCB6C87027B837EE002BEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambo Chat.app/Lambo Chat";
+			};
+			name = Debug;
+		};
+		CCB6C87127B837EE002BEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambo Chat.app/Lambo Chat";
+			};
+			name = Release;
+		};
+		CCB6C87327B837EE002BEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lambo Chat";
+			};
+			name = Debug;
+		};
+		CCB6C87427B837EE002BEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lambo Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB6C83D27B837ED002BEF17 /* Build configuration list for PBXProject "Lambo Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6C86A27B837EE002BEF17 /* Debug */,
+				CCB6C86B27B837EE002BEF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB6C86C27B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6C86D27B837EE002BEF17 /* Debug */,
+				CCB6C86E27B837EE002BEF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB6C86F27B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6C87027B837EE002BEF17 /* Debug */,
+				CCB6C87127B837EE002BEF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB6C87227B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6C87327B837EE002BEF17 /* Debug */,
+				CCB6C87427B837EE002BEF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB6C83A27B837ED002BEF17 /* Project object */;
+}
