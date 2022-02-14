@@ -6,4 +6,5 @@ Creted by Okhunjon Mamajonov
    <br> Firebase( Authentication, Firestore,  Database Setup, Data Collection & Retrieval, and etc.)
    <br> Navigation Controller Stacks
    <br> UITableView and Customized Cell
+   <br> Navigation Bar and items 
    <br> UI & UX designs
