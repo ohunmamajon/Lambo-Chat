@@ -1,0 +1,6 @@
+framework module Pods_Lambo_Chat {
+  umbrella header "Pods-Lambo Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}

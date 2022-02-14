@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95DEEC3E9D26F3989AEC3915 /* Pods_Lambo_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11E06B2286857B590D5DCFE /* Pods_Lambo_Chat.framework */; };
 		CCB6C84627B837ED002BEF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84527B837ED002BEF17 /* AppDelegate.swift */; };
 		CCB6C84827B837ED002BEF17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */; };
-		CCB6C84A27B837ED002BEF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C84927B837ED002BEF17 /* ViewController.swift */; };
 		CCB6C84D27B837ED002BEF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C84B27B837ED002BEF17 /* Main.storyboard */; };
 		CCB6C84F27B837EE002BEF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C84E27B837EE002BEF17 /* Assets.xcassets */; };
 		CCB6C85227B837EE002BEF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6C85027B837EE002BEF17 /* LaunchScreen.storyboard */; };
 		CCB6C85D27B837EE002BEF17 /* Lambo_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C85C27B837EE002BEF17 /* Lambo_ChatTests.swift */; };
 		CCB6C86727B837EE002BEF17 /* Lambo_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C86627B837EE002BEF17 /* Lambo_ChatUITests.swift */; };
 		CCB6C86927B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6C86827B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift */; };
+		CCFA4DBA27B99067005DAF10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DB927B99067005DAF10 /* MainViewController.swift */; };
+		CCFA4DBC27B99112005DAF10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DBB27B99112005DAF10 /* Constants.swift */; };
+		CCFA4DBE27B993F8005DAF10 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DBD27B993F8005DAF10 /* SignInViewController.swift */; };
+		CCFA4DC027B9940C005DAF10 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DBF27B9940C005DAF10 /* SignUpViewController.swift */; };
+		CCFA4DC227B9942F005DAF10 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DC127B9942F005DAF10 /* ChatViewController.swift */; };
+		CCFA4DC427B9A32B005DAF10 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DC327B9A32B005DAF10 /* Message.swift */; };
+		CCFA4DCB27B9B61D005DAF10 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4DC927B9B61D005DAF10 /* MessageCell.swift */; };
+		CCFA4DCC27B9B61D005DAF10 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4DCA27B9B61D005DAF10 /* MessageCell.xib */; };
+		CCFA4DCE27B9CC1D005DAF10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4DCD27B9CC1D005DAF10 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72876D7A4AE8F22372E81EE5 /* Pods-Lambo Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lambo Chat.release.xcconfig"; path = "Target Support Files/Pods-Lambo Chat/Pods-Lambo Chat.release.xcconfig"; sourceTree = "<group>"; };
+		9C1188931DEC44D11320184B /* Pods-Lambo Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lambo Chat.debug.xcconfig"; path = "Target Support Files/Pods-Lambo Chat/Pods-Lambo Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		A11E06B2286857B590D5DCFE /* Pods_Lambo_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lambo_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB6C84227B837ED002BEF17 /* Lambo Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lambo Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB6C84527B837ED002BEF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCB6C84927B837ED002BEF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCB6C84C27B837ED002BEF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB6C84E27B837EE002BEF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB6C85127B837EE002BEF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		CCB6C86227B837EE002BEF17 /* Lambo ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lambo ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB6C86627B837EE002BEF17 /* Lambo_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lambo_ChatUITests.swift; sourceTree = "<group>"; };
 		CCB6C86827B837EE002BEF17 /* Lambo_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lambo_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCFA4DB927B99067005DAF10 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CCFA4DBB27B99112005DAF10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CCFA4DBD27B993F8005DAF10 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CCFA4DBF27B9940C005DAF10 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CCFA4DC127B9942F005DAF10 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CCFA4DC327B9A32B005DAF10 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CCFA4DC927B9B61D005DAF10 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		CCFA4DCA27B9B61D005DAF10 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		CCFA4DCD27B9CC1D005DAF10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DEEC3E9D26F3989AEC3915 /* Pods_Lambo_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				CCB6C85B27B837EE002BEF17 /* Lambo ChatTests */,
 				CCB6C86527B837EE002BEF17 /* Lambo ChatUITests */,
 				CCB6C84327B837ED002BEF17 /* Products */,
+				F1DFA1221756A87D016D2976 /* Pods */,
+				E6E3379D47AFEEB5A8A716D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,13 @@
 			children = (
 				CCB6C84527B837ED002BEF17 /* AppDelegate.swift */,
 				CCB6C84727B837ED002BEF17 /* SceneDelegate.swift */,
-				CCB6C84927B837ED002BEF17 /* ViewController.swift */,
-				CCB6C84B27B837ED002BEF17 /* Main.storyboard */,
+				CCFA4DB827B99010005DAF10 /* Model */,
+				CCB6C87527B86098002BEF17 /* Views */,
 				CCB6C84E27B837EE002BEF17 /* Assets.xcassets */,
 				CCB6C85027B837EE002BEF17 /* LaunchScreen.storyboard */,
 				CCB6C85327B837EE002BEF17 /* Info.plist */,
+				CCFA4DCD27B9CC1D005DAF10 /* GoogleService-Info.plist */,
+				CCFA4DBB27B99112005DAF10 /* Constants.swift */,
 			);
 			path = "Lambo Chat";
 			sourceTree = "<group>";
@@ -127,6 +152,53 @@
 			path = "Lambo ChatUITests";
 			sourceTree = "<group>";
 		};
+		CCB6C87527B86098002BEF17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6C84B27B837ED002BEF17 /* Main.storyboard */,
+				CCFA4DCA27B9B61D005DAF10 /* MessageCell.xib */,
+				CCFA4DC927B9B61D005DAF10 /* MessageCell.swift */,
+				CCFA4DB727B98FEF005DAF10 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCFA4DB727B98FEF005DAF10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA4DB927B99067005DAF10 /* MainViewController.swift */,
+				CCFA4DBD27B993F8005DAF10 /* SignInViewController.swift */,
+				CCFA4DBF27B9940C005DAF10 /* SignUpViewController.swift */,
+				CCFA4DC127B9942F005DAF10 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCFA4DB827B99010005DAF10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA4DC327B9A32B005DAF10 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6E3379D47AFEEB5A8A716D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A11E06B2286857B590D5DCFE /* Pods_Lambo_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DFA1221756A87D016D2976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C1188931DEC44D11320184B /* Pods-Lambo Chat.debug.xcconfig */,
+				72876D7A4AE8F22372E81EE5 /* Pods-Lambo Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB6C86C27B837EE002BEF17 /* Build configuration list for PBXNativeTarget "Lambo Chat" */;
 			buildPhases = (
+				E80BE76A0AB564BE6073E29A /* [CP] Check Pods Manifest.lock */,
 				CCB6C83E27B837ED002BEF17 /* Sources */,
 				CCB6C83F27B837ED002BEF17 /* Frameworks */,
 				CCB6C84027B837ED002BEF17 /* Resources */,
+				EDA46DC1F35937117D39D007 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB6C85227B837EE002BEF17 /* LaunchScreen.storyboard in Resources */,
+				CCFA4DCC27B9B61D005DAF10 /* MessageCell.xib in Resources */,
+				CCFA4DCE27B9CC1D005DAF10 /* GoogleService-Info.plist in Resources */,
 				CCB6C84F27B837EE002BEF17 /* Assets.xcassets in Resources */,
 				CCB6C84D27B837ED002BEF17 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +329,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E80BE76A0AB564BE6073E29A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lambo Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA46DC1F35937117D39D007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lambo Chat/Pods-Lambo Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lambo Chat/Pods-Lambo Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lambo Chat/Pods-Lambo Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCB6C83E27B837ED002BEF17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB6C84A27B837ED002BEF17 /* ViewController.swift in Sources */,
+				CCFA4DC027B9940C005DAF10 /* SignUpViewController.swift in Sources */,
+				CCFA4DC427B9A32B005DAF10 /* Message.swift in Sources */,
+				CCFA4DBA27B99067005DAF10 /* MainViewController.swift in Sources */,
 				CCB6C84627B837ED002BEF17 /* AppDelegate.swift in Sources */,
+				CCFA4DC227B9942F005DAF10 /* ChatViewController.swift in Sources */,
+				CCFA4DBC27B99112005DAF10 /* Constants.swift in Sources */,
+				CCFA4DBE27B993F8005DAF10 /* SignInViewController.swift in Sources */,
 				CCB6C84827B837ED002BEF17 /* SceneDelegate.swift in Sources */,
+				CCFA4DCB27B9B61D005DAF10 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +558,7 @@
 		};
 		CCB6C86D27B837EE002BEF17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1188931DEC44D11320184B /* Pods-Lambo Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +576,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ohunmamajon.Lambo-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -461,6 +587,7 @@
 		};
 		CCB6C86E27B837EE002BEF17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72876D7A4AE8F22372E81EE5 /* Pods-Lambo Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
