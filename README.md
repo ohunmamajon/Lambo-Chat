@@ -7,4 +7,6 @@ Creted by Okhunjon Mamajonov
    <br> Navigation Controller Stacks
    <br> UITableView and Customized Cell
    <br> Navigation Bar and items 
-   <br> UI & UX designs
+   <br> UI & UX designs </b>
+<br> To be able to register to the Chat, You need to type a legit email(e.g. a@b.com ) and a password of at least 6 digits.
+   <br><br><b>Current Users for tests: login: lambo@1.com & pw: 123456, login: lambo@2.com & pw: 123456
