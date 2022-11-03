@@ -9,4 +9,4 @@ Creted by Okhunjon Mamajonov
    ## - Navigation Bar and items 
    ## - UI & UX designs 
    ## - To be able to register to the Chat, You need to type a legit email(e.g. a@b.com ) and a password of at least 6 digits.
-   ## - Current Users for tests: login: lambo@1.com & pw: 123456, login: lambo@2.com & pw: 123456
+   ## - Current Users for testing: login: lambo@1.com & pw: 123456, login: lambo@2.com & pw: 123456
